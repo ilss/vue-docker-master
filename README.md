@@ -1,3 +1,8 @@
+<!--
+ * @Author: Liang Liang
+ * @Date: 2021-09-29 19:12:11
+ * @Description: 
+-->
 # one
 
 ## Project setup
@@ -20,5 +25,7 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Create docker image
+```
+docker build -t skrjs/app -f docker/Dockerfile.linux.amd64 .
+```
