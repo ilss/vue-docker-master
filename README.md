@@ -27,5 +27,5 @@ npm run lint
 
 ### Create docker image
 ```
-docker build -t skrjs/app -f docker/Dockerfile.linux.amd64 .
+npm run docker-build
 ```
